@@ -1,0 +1,2 @@
+28 6 * * 1-5 ~/sunrise-lifx/sunrise.sh >> ~/sunrise-lifx/cronOutput.txt 2>&1
+45 6 * * 1-5 ~/sunrise-lifx/turn-off.sh >> ~/sunrise-lifx/cronOutput.txt 2>&1
