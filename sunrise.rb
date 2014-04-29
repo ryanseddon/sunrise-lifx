@@ -1,7 +1,7 @@
 require 'lifx'
 
 label = ARGV[0]
-time = ARVG[1] ||= 120
+time = ARGV[1] ||= 120
 
 client = LIFX::Client.lan
 client.discover! do |c|
