@@ -14,7 +14,7 @@ If you want to run this your self follow these steps
 
 All you need to do on your computer which will be triggering the script is have the following
 
-1. RVM installed as the script will trigger `bundle exec ruby`
+1. [RVM](http://rvm.io/rvm/install) installed as the script will trigger `bundle exec ruby`
 2. If copying and pasting the `sunrise.sh` bash script you'll need to make sure you pass the correct label your light has.
 
 Clone this github repo to your machine and run `bundle install` inside the directory.
